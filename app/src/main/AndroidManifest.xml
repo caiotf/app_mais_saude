@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.caiotf.maissaude">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BuscaActivity" />
+        <activity android:name=".EspecialidadesActivity" />
+        <activity android:name=".LocaisActivity" />
+        <activity android:name=".ConveniosActivity" />
+        <activity android:name=".CardiologiaActivity" />
+        <activity android:name=".ClinicoGeralActivity" />
+        <activity android:name=".DermatologiaActivity" />
+        <activity android:name=".OrtopediaActivity" />
+        <activity android:name=".OftamologiaActivity" />
+        <activity android:name=".HospitaisActivity" />
+        <activity android:name=".ClinicasActivity" />
+        <activity android:name=".LaboratoriosActivity" />
+        <activity android:name=".UnimedActivity" />
+        <activity android:name=".IpsemgActivity" />
+        <activity android:name=".CasuActivity" />
+        <activity android:name=".PediatriaActivity" />
+        <activity android:name=".GeriatriaActivity" />
+        <activity android:name=".AngiologiaActivity" />
+        <activity android:name=".GinecologiaObsteActivity" />
+        <activity android:name=".NeurologiaActivity" />
+        <activity android:name=".OtorrinolaringologiaActivity" />
+        <activity android:name=".OdontologiaActivity"></activity>
+
+    </application>
+
+</manifest>

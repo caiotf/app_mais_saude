@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/media/caio/Dados/mais-saude/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4c661191e88e01d3311d095b2529785bb0a017d1">
+        <dex dex="/media/caio/Dados/mais-saude/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b3cf38c827948620bf5eff391bd9eb59f3e10325/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/caio/Dados/mais-saude/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/media/caio/Dados/mais-saude/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f1dfe33e6c70488791725fbcac2d5e443dc0d1de/classes.dex" />
+    </item>
+
+</items>

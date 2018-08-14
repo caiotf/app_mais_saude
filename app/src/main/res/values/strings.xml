@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mais Saúde</string>
+
+    <string-array name="arrayCidades">
+        <item>Diamantina</item>
+    </string-array>
+
+</resources>

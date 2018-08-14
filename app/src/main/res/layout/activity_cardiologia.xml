@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecf7fb"
+    tools:context="com.caiotf.maissaude.CardiologiaActivity">
+
+    <ImageView
+        android:id="@+id/textExpId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/fundo3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:fontFamily="serif"
+        android:text="Cardiologia"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#2c3e50"
+        android:textSize="30sp" />
+
+
+    <ListView
+        android:id="@+id/listview_product"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="77dp"
+        android:divider="#d1d1d1"
+        android:dividerHeight="10dp"></ListView>
+
+    <!--<ScrollView
+        android:id="@+id/scrollViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <com.ms.square.android.expandabletextview.ExpandableTextView
+            android:id="@+id/expandable_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:maxCollapsedLines="4"
+            app:animDuration="200"
+            >
+
+            <TextView
+                android:id="@+id/expandable_text"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="8dp"
+                android:textColor="#666"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <ImageButton
+                android:id="@+id/expandable_colapse"
+                android:layout_gravity="right|bottom"
+                android:background="@android:color/transparent"
+                android:padding="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </com.ms.square.android.expandabletextview.ExpandableTextView>
+
+    </ScrollView>-->
+
+
+</RelativeLayout>
